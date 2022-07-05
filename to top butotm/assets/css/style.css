@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Vazirmatn';
+    outline: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  height: 100vh;
+}
+section{
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 45px;
+}
+#sectionOne{
+  background-color: #b71c1c;
+}
+#sectionTwo{
+  background-color: #E65100;
+}
+#sectionThree{
+  background-color: #33691E;
+}
+#sectionFour{
+  background-color: #0D47A1;
+}
+.to-top{
+  text-decoration:none;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .4s ease-in-out;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: #000;
+  opacity: 0;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+}
+.to-top{
+  font-size: 30px;
+}
+.to-top.active{
+  opacity: 1;
+  bottom: 15px;
+}
